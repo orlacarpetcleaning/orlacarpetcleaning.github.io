@@ -133,15 +133,16 @@ header.page-header {
 .footer-inline-logo {
   text-decoration: none !important;
   display: inline-flex;
-  align-items: center; /* perfect vertical alignment */
-  margin-top: 3rem;
+  align-items: center;
+  line-height: 0; /* kills the baseline ghost */
 }
 
 .footer-inline-logo img {
   height: 3rem;
   width: auto;
   filter: invert(1);
-  margin: 0 0.3rem; /* ← semicolon fixed */
-  display: block;   /* removes baseline weirdness */
+  margin: 0 0.3rem;
+  display: inline-block;
+  vertical-align: middle; /* forces true alignment */
 }
 
