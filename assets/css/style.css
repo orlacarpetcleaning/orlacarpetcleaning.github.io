@@ -6,6 +6,10 @@ body {
   color: #606c71;
   margin: 0;
   padding: 0;
+
+  /* ⭐ ORLA background */
+  background: url('/assets/img/bckgr.png') no-repeat center center fixed;
+  background-size: cover;
 }
 
 a {
@@ -64,6 +68,11 @@ a:hover {
   text-align: center;
   font-size: 0.9rem;
   color: #819198;
+
+  /* ⭐ ORLA footer logo */
+  background: url('/assets/img/logo_a.png') no-repeat center top;
+  background-size: 80px;
+  padding-top: 100px; /* makes room for the logo */
 }
 
 .site-footer a {
@@ -71,7 +80,37 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ORLA overrides */
+/* ⭐ ORLA overrides */
 header.page-header {
   display: none;
+}
+
+/* ⭐ ORLA header logo sizing */
+.orla-logo {
+  width: 120px;
+  height: auto;
+}
+
+/* ⭐ ORLA header layout */
+.orla-header {
+  padding: 1.5rem 2rem;
+}
+
+.orla-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orla-nav a {
+  margin-left: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.orla-tagline {
+  margin-top: 0.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
