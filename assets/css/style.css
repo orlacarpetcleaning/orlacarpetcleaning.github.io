@@ -70,3 +70,8 @@ a:hover {
   color: inherit;
   text-decoration: underline;
 }
+
+/* ORLA overrides */
+header.page-header {
+  display: none;
+}
