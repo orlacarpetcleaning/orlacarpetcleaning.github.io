@@ -136,4 +136,5 @@ header.page-header {
   width: auto;
   filter: invert(1); /* make logo white */
   vertical-align: middle;
+  margin: 3rem;  
 }
