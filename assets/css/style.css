@@ -160,3 +160,49 @@ header.page-header {
 body, body * {
   color: #fff !important;
 }
+
+@media (max-width: 768px) {
+
+  /* shrink header padding */
+  .orla-header {
+    padding: 1rem 1rem 0.5rem;
+  }
+
+  /* shrink logo */
+  .orla-logo {
+    width: 200px;
+    margin-left: 0;
+  }
+
+  /* tighten nav */
+  .orla-nav a {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+
+  /* hero text */
+  .orla-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .orla-hero-sub {
+    font-size: 1.1rem;
+  }
+
+  /* main content padding */
+  .main-content {
+    padding: 1rem 1rem 0;
+  }
+
+  /* footer text */
+  .site-footer {
+    font-size: 1.1rem;
+    padding: 1rem 0 1rem;
+  }
+
+  /* footer logo */
+  .footer-inline-logo img {
+    height: 2rem;
+    top: 0.5rem;
+  }
+}
