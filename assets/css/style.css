@@ -145,6 +145,6 @@ header.page-header {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  top: 0.3rem; /* ← THIS lowers the image without moving the text */
+  top: 1rem; /* ← THIS lowers the image without moving the text */
 }
 
