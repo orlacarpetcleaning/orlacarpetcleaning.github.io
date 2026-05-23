@@ -4,9 +4,11 @@
 /* -----------------------------------------------------------
    BASE
 ----------------------------------------------------------- */
-
+html {
+  background-color: #000;
+}
 html, body {
-  min-height: 100vh;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -185,11 +187,9 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 
   /* FIX: stop background from forcing desktop width on mobile */
   body {
-    background: url('/assets/img/bckgr.png') no-repeat center center;
-    background-size: cover;
     background-attachment: scroll;
-  }
-
+  } 
+   
   /* FIX: main content width */
   .main-content {
     max-width: 100%;
@@ -233,4 +233,94 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width
+    width: 100%;
+  }
+
+  /* nav links */
+  .orla-nav a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  /* footer */
+  .site-footer {
+    font-size: 1.1rem;
+    padding: 1rem 0 1rem;
+  }
+
+  .footer-inline-logo img {
+    height: 2rem;
+    top: 0.5rem;
+  }
+
+  /* FIX: wrapper width */
+  .page-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+/* -----------------------------------------------------------
+   PAGE HERO
+----------------------------------------------------------- */
+
+.page-hero {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.page-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-hero-sub {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* -----------------------------------------------------------
+   PAGE CONTENT
+----------------------------------------------------------- */
+
+.page-wrapper {
+  width: 50rem;        /* FIXED from 70rem */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.page-content {
+  padding: 1rem 0 3rem;
+}
+
+.page-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* HOME HERO */
+.home-hero {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-hero p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
