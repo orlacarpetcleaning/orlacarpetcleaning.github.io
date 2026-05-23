@@ -278,3 +278,20 @@ body, body * {
   margin-bottom: 1rem;
   line-height: 1.6;
 }
+
+/* HOME HERO */
+.home-hero {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-hero p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
