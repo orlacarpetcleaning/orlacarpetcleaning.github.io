@@ -1,17 +1,14 @@
----
-layout: page
-title: Services
----
+<div class="page-wrapper">
 
-## Services
-This page will list the services ORLA Carpet Cleaning provides.
+  <section class="home-hero">
+    <h1>This is your homepage hero</h1>
+    <p>This is placeholder text showing how the homepage hero looks.</p>
+  </section>
 
-## Service One
-Short placeholder description of a service.  
-This will be replaced with real copy later.
+  <h2>Section Heading</h2>
+  <p>This is placeholder text showing how a section looks.</p>
 
-## Service Two
-Another placeholder block showing how multiple services stack.
+  <h2>Another Section</h2>
+  <p>More placeholder text to show spacing and layout.</p>
 
-## Service Three
-More placeholder text to demonstrate spacing and layout.
+</div>
