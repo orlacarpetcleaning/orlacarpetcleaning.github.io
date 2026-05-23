@@ -162,6 +162,10 @@ body, body * {
 }
 
 @media (max-width: 768px) {
+   .orla-top {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
   /* shrink header padding */
   .orla-header {
