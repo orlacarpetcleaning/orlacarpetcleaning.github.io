@@ -134,15 +134,17 @@ header.page-header {
   text-decoration: none !important;
   display: inline-flex;
   align-items: center;
-  line-height: 0; /* kills the baseline ghost */
+  line-height: 1; /* restore normal line height */
 }
 
 .footer-inline-logo img {
   height: 3rem;
   width: auto;
   filter: invert(1);
-  margin: 0 0.3rem;
+  margin: 0 0.5rem;
   display: inline-block;
-  vertical-align: middle; /* forces true alignment */
+  vertical-align: middle;
+  position: relative;
+  top: 0.3rem; /* ← THIS lowers the image without moving the text */
 }
 
