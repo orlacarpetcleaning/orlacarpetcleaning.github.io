@@ -21,23 +21,22 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 0;
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
 
-  background: none !important; /* background lives on pseudo-element now */
-  display: flex;
-  flex-direction: column;
-}
+  width: 100lvw;
+  height: 100lvh;
 
-a {
-  color: #1e6bb8;
-  text-decoration: none;
-}
+  background-image: url('/assets/img/bckgr.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 
-a:hover {
-  text-decoration: underline;
+  z-index: -1;
+  pointer-events: none;
 }
 
 /* -----------------------------------------------------------
