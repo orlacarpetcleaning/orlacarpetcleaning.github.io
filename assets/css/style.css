@@ -182,6 +182,13 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 
 @media (max-width: 768px) {
 
+  /* FIX: stop background from forcing desktop width on mobile */
+  body {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+  }
+
   /* shrink header padding */
   .orla-header {
     padding: 1rem 1rem 0.5rem;
