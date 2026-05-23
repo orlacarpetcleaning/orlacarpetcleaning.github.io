@@ -11,16 +11,14 @@ html, body {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #606c71;
   margin: 0;
   padding: 0;
 
-  /* ORLA background */
   background: url('/assets/img/bckgr.png') no-repeat center center fixed;
   background-size: cover;
 
   display: flex;
-  flex-direction: column; /* enables sticky footer */
+  flex-direction: column;
 }
 
 a {
@@ -40,45 +38,15 @@ header.page-header {
   display: none;
 }
 
-.project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem;
-  font-size: 3.25rem;
-}
-
-.project-tagline {
-  margin-bottom: 2rem;
-  margin-top: 5rem;
-  font-weight: normal;
-  font-style: italic;
-  font-size: 2rem;
-}
-
 /* -----------------------------------------------------------
    MAIN CONTENT
 ----------------------------------------------------------- */
 
 .main-content {
   max-width: 64rem;
-  padding: 2rem 2rem 0; /* remove bottom padding */
+  padding: 2rem 2rem 0;
   margin: 0 auto;
-  flex: 1; /* pushes footer to bottom */
-}
-
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: #159957;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: normal;
-}
-
-.main-content p {
-  margin-bottom: 1rem;
+  flex: 1;
 }
 
 /* -----------------------------------------------------------
@@ -101,8 +69,12 @@ header.page-header {
   margin-left: 100px;
 }
 
+.orla-nav {
+  display: flex;
+  gap: 1rem;
+}
+
 .orla-nav a {
-  margin-left: 1rem;
   font-weight: 600;
   color: #fff;
 }
@@ -126,19 +98,17 @@ header.page-header {
 ----------------------------------------------------------- */
 
 .site-footer {
-  padding: 1rem 0 1.5rem; /* tighter footer */
+  padding: 1rem 0 1.5rem;
   text-align: center;
   font-size: 1.2rem;
   color: #fff;
 }
 
-/* Footer links */
 .site-footer a {
   color: #fff;
   text-decoration: underline;
 }
 
-/* Inline footer logo */
 .footer-inline-logo {
   text-decoration: none !important;
   display: inline-flex;
@@ -154,72 +124,21 @@ header.page-header {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  top: 0.5rem; /* lowers image without moving text */
+  top: 0.5rem;
 }
+
+/* -----------------------------------------------------------
+   DEV MODE: ALL TEXT WHITE
+----------------------------------------------------------- */
 
 body, body * {
   color: #fff !important;
 }
 
-@media (max-width: 768px) {
-    .orla-top {
-    flex-direction: column;
-    align-items: center;   
-    gap: 1rem;
-  }
-   
-   /* shrink header padding */
-  .orla-header {
-    padding: 1rem 1rem 0.5rem;
-  }
+/* -----------------------------------------------------------
+   HAMBURGER MENU (DESKTOP HIDDEN)
+----------------------------------------------------------- */
 
-  /* shrink logo */
-  .orla-logo {
-    width: 200px;
-    margin-left: 0;
-  }
-
-   .orla-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.6rem; /* clean spacing between links */
-  }
-  /* tighten nav */
-  .orla-nav a {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-
-  /* hero text */
-  .orla-hero h1 {
-    font-size: 1.8rem;
-  }
-
-  .orla-hero-sub {
-    font-size: 1.1rem;
-  }
-
-  /* main content padding */
-  .main-content {
-    padding: 1rem 1rem 0;
-  }
-
-  /* footer text */
-  .site-footer {
-    font-size: 1.1rem;
-    padding: 1rem 0 1rem;
-  }
-
-  /* footer logo */
-  .footer-inline-logo img {
-    height: 2rem;
-    top: 0.5rem;
-  }
-}
-
-/* HAMBURGER BASE */
 .nav-toggle {
   display: none;
 }
@@ -256,8 +175,22 @@ body, body * {
   top: 8px;
 }
 
-/* MOBILE MENU */
+/* -----------------------------------------------------------
+   MOBILE LAYOUT
+----------------------------------------------------------- */
+
 @media (max-width: 768px) {
+
+  /* shrink header padding */
+  .orla-header {
+    padding: 1rem 1rem 0.5rem;
+  }
+
+  /* shrink logo */
+  .orla-logo {
+    width: 200px;
+    margin-left: 0;
+  }
 
   /* show hamburger */
   .nav-toggle-label {
@@ -273,18 +206,12 @@ body, body * {
     margin-top: 1rem;
   }
 
-  /* show nav when checkbox is checked */
+  /* show nav when hamburger checked */
   .nav-toggle:checked ~ .orla-nav {
     display: flex;
   }
 
-  /* shrink logo */
-  .orla-logo {
-    width: 200px;
-    margin-left: 0;
-  }
-
-  /* stack header */
+  /* header layout */
   .orla-top {
     display: flex;
     justify-content: space-between;
@@ -292,10 +219,21 @@ body, body * {
     width: 100%;
   }
 
-  /* nav link styling */
+  /* nav links */
   .orla-nav a {
     font-size: 1.2rem;
     font-weight: 600;
     margin: 0;
+  }
+
+  /* footer */
+  .site-footer {
+    font-size: 1.1rem;
+    padding: 1rem 0 1rem;
+  }
+
+  .footer-inline-logo img {
+    height: 2rem;
+    top: 0.5rem;
   }
 }
