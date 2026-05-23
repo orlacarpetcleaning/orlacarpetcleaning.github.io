@@ -4,13 +4,10 @@ title: About
 ---
 
 ## About ORLA
-This page will introduce the business, the team, and the story behind ORLA Carpet Cleaning.
-
-## Who We Are
-Placeholder text describing the company background.
+This is a long paragraph explaining the placeholder story of ORLA Carpet Cleaning. It continues across multiple lines so you can observe how the text wraps and whether the spacing between the hero section and the content section feels consistent. The goal here is simply to expose any subtle layout inconsistencies.
 
 ## Our Approach
-Placeholder text explaining the values, methods, or philosophy.
+Another long paragraph that describes the philosophy behind the business. Again, the purpose is not the content but the structure — the way the text flows, the way the spacing behaves, and whether the alignment remains stable across different sections.
 
 ## Why Choose Us
-Placeholder bullet points or short paragraphs will go here.
+A final long paragraph that should wrap naturally and show whether the page layout maintains a consistent rhythm. If anything looks off, this paragraph will make it obvious.
