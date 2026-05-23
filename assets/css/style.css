@@ -162,7 +162,12 @@ body, body * {
 }
 
 @media (max-width: 768px) {
-
+    .orla-top {
+    flex-direction: column;
+    align-items: center;   
+    gap: 1rem;
+  }
+   
    /* shrink header padding */
   .orla-header {
     padding: 1rem 1rem 0.5rem;
@@ -174,10 +179,17 @@ body, body * {
     margin-left: 0;
   }
 
+   .orla-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem; /* clean spacing between links */
+  }
   /* tighten nav */
   .orla-nav a {
-    margin-left: 0.5rem;
-    font-size: 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 
   /* hero text */
