@@ -3,7 +3,7 @@ layout: page
 title: Services
 ---
 
-# Services
+## Services
 This page will list the services ORLA Carpet Cleaning provides.
 
 ## Service One
