@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background: none !important; /* background lives on html now */
+  background: none !important; /* background lives on pseudo-element now */
   display: flex;
   flex-direction: column;
 }
@@ -49,18 +49,19 @@ body::before {
   position: fixed;
   top: 0;
   left: 0;
+
+  /* ⭐ Stable viewport sizing */
   width: 100svw;
   height: 100svh;
 
   background-image: url('/assets/img/bckgr.png');
   background-repeat: no-repeat;
-  background-position: center top; /* ⭐ FIX: lock vertical anchor */
-  background-size: 100% auto;      /* ⭐ FIX: no more zooming to fill height */
+  background-position: center top;
+  background-size: 100% auto;
 
   z-index: -1;
   pointer-events: none;
 }
-
 
 /* -----------------------------------------------------------
    CAYMAN DEFAULT HEADER (HIDDEN)
