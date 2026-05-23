@@ -1,0 +1,5 @@
+title: ORLA Carpet Cleaning
+description: Professional Carpet Cleaning in Cornwall
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
