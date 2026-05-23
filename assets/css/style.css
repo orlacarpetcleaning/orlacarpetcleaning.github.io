@@ -35,12 +35,12 @@ a:hover {
   font-size: 3.25rem;
 }
 
-.project-tagline {
+.orla-tagline {
   margin-bottom: 2rem;
+  margin-top: 5rem;
   font-weight: normal;
   font-style: italic;
   font-size: 2rem;
-  margin-top: 5rem;
 }
 
 .main-content {
