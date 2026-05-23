@@ -156,3 +156,7 @@ header.page-header {
   position: relative;
   top: 1rem; /* lowers image without moving text */
 }
+
+body, body * {
+  color: #fff !important;
+}
