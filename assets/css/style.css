@@ -43,7 +43,7 @@ header.page-header {
 ----------------------------------------------------------- */
 
 .main-content {
-  max-width: 64rem;
+  max-width: 80rem;
   padding: 2rem 2rem 0;
   margin: 0 auto;
   flex: 1;
@@ -264,10 +264,12 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 ----------------------------------------------------------- */
 
 .page-wrapper {
-  max-width: 50rem;
+  width: 80rem;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
 }
+
 
 .page-content {
   padding: 1rem 0 3rem; /* remove width + auto margins */
