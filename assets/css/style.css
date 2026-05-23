@@ -130,18 +130,11 @@ header.page-header {
   text-decoration: underline;
 }
 
-/* Footer logo wrapper */
-.footer-logo-link {
-  display: block;
-  width: 100px;
-  margin: 0 auto 1rem;
-}
-
-/* Footer logo (inverted to white) */
-.footer-logo {
-  width: 100px;
-  height: 100px;
-  background: url('/assets/img/logo_a.png') no-repeat center center;
-  background-size: contain;
-  filter: invert(1);
+/* Inline footer logo inside the sentence */
+.footer-inline-logo img {
+  height: 1.2rem;
+  width: auto;
+  filter: invert(1); /* make logo white */
+  vertical-align: middle;
+  margin: 0 0.3rem;
 }
