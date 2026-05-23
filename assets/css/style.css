@@ -13,8 +13,6 @@
 
 /* Desktop background (fixed works here) */
 html {
-  background: url('/assets/img/bckgr.png') no-repeat center center fixed;
-  background-size: cover;
   background-color: #000;
 }
 
