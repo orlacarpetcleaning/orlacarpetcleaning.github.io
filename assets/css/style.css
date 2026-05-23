@@ -66,7 +66,8 @@ header.page-header {
 .orla-logo {
   width: 360px;
   height: auto;
-  margin-left: 100px;
+  padding-left: 100px;
+  margin: 0;
 }
 
 .orla-nav {
@@ -264,7 +265,7 @@ body, body * {
 
 /* GLOBAL PAGE WIDTH */
 .page-wrapper {
-  max-width: 500rem;
+  max-width: 100rem;
   margin: 0 auto;
   padding: 0 2rem;
 }
