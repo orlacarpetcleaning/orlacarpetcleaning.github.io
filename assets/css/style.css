@@ -133,16 +133,13 @@ header.page-header {
 .footer-inline-logo {
   text-decoration: none !important;
   display: inline-flex;
-  align-items: center;
+  align-items: center; /* forces perfect vertical alignment */
 }
 
-/* Inline footer logo inside the sentence */
 .footer-inline-logo img {
-  display: block; 
-  height: 3rem;
+  height: 1.4rem;
   width: auto;
-  filter: invert(1); /* make logo white */
-  vertical-align: middle;
-  margin: 3rem;
-  padding-top: 3rem; 
+  filter: invert(1);
+  margin: 0 0.3rem;
+  display: block; /* removes inline baseline weirdness */
 }
