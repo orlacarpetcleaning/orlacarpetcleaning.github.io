@@ -134,12 +134,13 @@ header.page-header {
   text-decoration: none !important;
   display: inline-flex;
   align-items: center; /* forces perfect vertical alignment */
+  margin-top: 3rem; 
 }
 
 .footer-inline-logo img {
-  height: 2rem;
+  height: 3rem;
   width: auto;
   filter: invert(1);
-  margin-top: 3rem;
+  margin: 0 0.3rem 
   display: block; /* removes inline baseline weirdness */
 }
