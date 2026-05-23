@@ -50,14 +50,13 @@ body::before {
   top: 0;
   left: 0;
 
-  /* ⭐ Stable viewport sizing */
   width: 100svw;
   height: 100svh;
 
   background-image: url('/assets/img/bckgr.png');
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 100% auto;
+  background-position: center center; /* ⭐ FIXED */
+  background-size: cover;             /* ⭐ FIXED */
 
   z-index: -1;
   pointer-events: none;
