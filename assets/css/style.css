@@ -189,7 +189,9 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 
   /* FIX: Android Chrome hates fixed backgrounds */
   html {
-    background-attachment: scroll;
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-position: center !important;
   }
 
   /* FIX: main content width */
