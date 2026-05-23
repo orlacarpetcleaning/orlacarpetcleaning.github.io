@@ -1,5 +1,9 @@
-@import url("normalize.css"); 
+@import url("normalize.css");
 @import url("rouge.css");
+
+/* -----------------------------------------------------------
+   BASE
+----------------------------------------------------------- */
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -7,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
 
-  /* ⭐ ORLA background */
+  /* ORLA background */
   background: url('/assets/img/bckgr.png') no-repeat center center fixed;
   background-size: cover;
 }
@@ -21,12 +25,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.page-header {
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
-  padding: 2rem 0;
+/* -----------------------------------------------------------
+   CAYMAN DEFAULT HEADER (HIDDEN)
+----------------------------------------------------------- */
+
+header.page-header {
+  display: none;
 }
 
 .project-name {
@@ -42,6 +46,10 @@ a:hover {
   font-style: italic;
   font-size: 2rem;
 }
+
+/* -----------------------------------------------------------
+   MAIN CONTENT
+----------------------------------------------------------- */
 
 .main-content {
   max-width: 64rem;
@@ -65,36 +73,10 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.site-footer {
-  padding: 2rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #819198;
+/* -----------------------------------------------------------
+   ORLA CUSTOM HEADER
+----------------------------------------------------------- */
 
-  /* ⭐ ORLA footer logo */
-  background: url('/assets/img/logo_a.png') no-repeat center top;
-  background-size: 80px;
-  padding-top: 100px; /* makes room for the logo */
-}
-
-.site-footer a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-/* ⭐ ORLA overrides */
-header.page-header {
-  display: none;
-}
-
-/* ⭐ ORLA header logo sizing */
-.orla-logo {
-  width: 360px;
-  height: auto;
-  margin-left: 100px;
-}
-
-/* ⭐ ORLA header layout */
 .orla-header {
   padding: 2rem 2rem 1rem;
 }
@@ -105,13 +87,18 @@ header.page-header {
   align-items: center;
 }
 
+.orla-logo {
+  width: 360px;
+  height: auto;
+  margin-left: 100px;
+}
+
 .orla-nav a {
   margin-left: 1rem;
   font-weight: 600;
   color: #fff;
 }
 
-/* ⭐ Tagline centred and separated */
 .orla-tagline {
   font-style: italic;
   text-align: center;
@@ -121,32 +108,40 @@ header.page-header {
   color: #fff;
 }
 
-/* ⭐ Remove skip link */
+/* Skip link */
 #skip-to-content {
   display: none;
 }
 
-/* ⭐ Footer logo link wrapper */
+/* -----------------------------------------------------------
+   ORLA FOOTER
+----------------------------------------------------------- */
+
+.site-footer {
+  padding: 2rem 0 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff; /* footer text white */
+}
+
+/* Footer links */
+.site-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Footer logo wrapper */
 .footer-logo-link {
   display: block;
-  width: 80px;
+  width: 100px;
   margin: 0 auto 1rem;
 }
 
-/* ⭐ Footer logo (inverted to white) */
+/* Footer logo (inverted to white) */
 .footer-logo {
   width: 100px;
-  height: auto;
+  height: 100px;
   background: url('/assets/img/logo_a.png') no-repeat center center;
   background-size: contain;
   filter: invert(1);
 }
-
-/* ⭐ Footer text styling */
-.site-footer-credits {
-  text-align: center;
-  color: #fff;          /* make footer text white */
-  font-size: 0.9rem;
-  padding: 2rem 0 3rem; /* extra bottom breathing room */
-}
-
