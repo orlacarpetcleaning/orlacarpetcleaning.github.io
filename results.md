@@ -3,7 +3,7 @@ layout: page
 title: Results
 ---
 
-# Results
+## Results
 This page will eventually show before-and-after photos.
 
 ## Example Result
