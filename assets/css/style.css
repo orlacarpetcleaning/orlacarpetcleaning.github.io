@@ -7,7 +7,7 @@
 
 html, body {
   height: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 body {
@@ -40,11 +40,11 @@ header.page-header {
 }
 
 /* -----------------------------------------------------------
-   MAIN CONTENT
+   MAIN CONTENT (DESKTOP)
 ----------------------------------------------------------- */
 
 .main-content {
-  max-width: 80rem;
+  max-width: 50rem;       /* FIXED from 80rem */
   padding: 2rem 2rem 0;
   margin: 0 auto;
   flex: 1;
@@ -67,7 +67,7 @@ header.page-header {
 .orla-logo {
   width: 360px;
   height: auto;
-  padding-left: 0;
+  padding-left: 0;        /* FIXED */
   margin: 0;
 }
 
@@ -190,9 +190,10 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
     background-position: center;
   }
 
+  /* FIX: main content width */
   .main-content {
-  max-width: 100%;
-  padding: 1rem;
+    max-width: 100%;
+    padding: 1rem;
   }
 
   /* shrink header padding */
@@ -203,6 +204,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
   /* shrink logo */
   .orla-logo {
     width: 150px;
+    padding-left: 0;
     margin-left: 0;
   }
 
@@ -215,7 +217,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
   .orla-nav {
     display: none;
     flex-direction: column;
-    align-items: right;
+    align-items: flex-end;
     gap: 1rem;
     margin-top: 1rem;
   }
@@ -228,99 +230,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
   /* header layout */
   .orla-top {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-  }
-
-  /* nav links */
-  .orla-nav a {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin: 0;
-  }
-
-  /* footer */
-  .site-footer {
-    font-size: 1.1rem;
-    padding: 1rem 0 1rem;
-  }
-
-  .footer-inline-logo img {
-    height: 2rem;
-    top: 0.5rem;
-  }
-
-  /* ⭐ FIX FOR THE WRAPPER ON MOBILE ⭐ */
-  .page-wrapper {
-    width: 100%;
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-}
-
-
-/* -----------------------------------------------------------
-   PAGE HERO
------------------------------------------------------------ */
-
-.page-hero {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.page-hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-hero-sub {
-  font-size: 1.2rem;
-  opacity: 0.8;
-}
-
-/* -----------------------------------------------------------
-   PAGE CONTENT
------------------------------------------------------------ */
-
-.page-wrapper {
-  width: 50rem;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-
-.page-content {
-  padding: 1rem 0 3rem; /* remove width + auto margins */
-}
-
-.page-content h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-}
-
-.page-content p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-/* HOME HERO */
-.home-hero {
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.home-hero h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-}
-
-.home-hero p {
-  font-size: 1.3rem;
-  opacity: 0.9;
-}
+    width
