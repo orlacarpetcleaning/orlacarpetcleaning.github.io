@@ -130,11 +130,18 @@ header.page-header {
   text-decoration: underline;
 }
 
+.footer-inline-logo {
+  text-decoration: none !important;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
 /* Inline footer logo inside the sentence */
 .footer-inline-logo img {
   height: 3rem;
   width: auto;
   filter: invert(1); /* make logo white */
   vertical-align: middle;
-  margin: 3rem;  
+  margin: 1.5rem;  
 }
