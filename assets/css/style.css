@@ -60,7 +60,7 @@ header.page-header {
 
 .main-content {
   max-width: 64rem;
-  padding: 2rem;
+  padding: 2rem 2rem 0; /* remove bottom padding */
   margin: 0 auto;
   flex: 1; /* pushes footer to bottom */
 }
