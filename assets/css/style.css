@@ -237,3 +237,44 @@ body, body * {
     top: 0.5rem;
   }
 }
+
+/* -----------------------------------------------------------
+   PAGE HERO
+----------------------------------------------------------- */
+
+.page-hero {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.page-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-hero-sub {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* -----------------------------------------------------------
+   PAGE CONTENT
+----------------------------------------------------------- */
+
+.page-content {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1rem 2rem 3rem;
+}
+
+.page-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
