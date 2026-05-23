@@ -264,10 +264,11 @@ body, body * {
 
 /* GLOBAL PAGE WIDTH */
 .page-wrapper {
-  width: 100%;
+  max-width: 500rem;
   margin: 0 auto;
   padding: 0 2rem;
 }
+
 
 .page-content {
   max-width: 50rem;
