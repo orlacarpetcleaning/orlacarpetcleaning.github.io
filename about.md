@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-# About ORLA
+## About ORLA
 This page will introduce the business, the team, and the story behind ORLA Carpet Cleaning.
 
 ## Who We Are
