@@ -43,6 +43,25 @@ a:hover {
 }
 
 /* -----------------------------------------------------------
+   TRUE FIXED BACKGROUND (works on all mobile browsers)
+----------------------------------------------------------- */
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: url('/assets/img/bckgr.png') no-repeat center center;
+  background-size: cover;
+
+  z-index: -1; /* sits behind everything */
+  pointer-events: none;
+}
+
+/* -----------------------------------------------------------
    CAYMAN DEFAULT HEADER (HIDDEN)
 ----------------------------------------------------------- */
 
