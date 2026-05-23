@@ -12,9 +12,31 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
+
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
+    <!-- ⭐ ORLA CUSTOM HEADER ⭐ -->
+    <header class="orla-header">
+      <div class="orla-top">
+        <div class="orla-left">
+          <img src="/assets/img/logo_t.png" alt="ORLA Logo" class="orla-logo">
+        </div>
+
+        <nav class="orla-right orla-nav">
+          <a href="/">Home</a>
+          <a href="/services">Services</a>
+          <a href="/about">About</a>
+          <a href="/before-after">Before & After</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+
+      <p class="orla-tagline">Professional Carpet Cleaning in Cornwall</p>
+    </header>
+    <!-- ⭐ END ORLA CUSTOM HEADER ⭐ -->
+
+    <!-- ⭐ Cayman’s original header (we will hide it with CSS) ⭐ -->
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
