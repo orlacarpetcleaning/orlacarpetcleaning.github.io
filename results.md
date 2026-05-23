@@ -3,14 +3,11 @@ layout: page
 title: Results
 ---
 
-## Results
-This page will eventually show before-and-after photos.
+## Before & After Examples
+This long paragraph describes how future before‑and‑after photos will be displayed. It wraps across several lines to help you see whether the layout maintains consistent spacing and alignment when the text becomes longer than a single line.
 
-## Example Result
-Placeholder text describing how a result block will look.
-
-## Another Example
-More placeholder text to show spacing and layout.
+## Deep Cleaning Outcomes
+Another long paragraph that continues for several lines. This helps test whether the page wrapper, content padding, and hero spacing all behave predictably across different content lengths.
 
 ## Future Gallery
-This section will hold a grid of images once the real photos are ready.
+A final long paragraph that should wrap naturally and reveal any inconsistencies in the vertical rhythm of the page layout.
