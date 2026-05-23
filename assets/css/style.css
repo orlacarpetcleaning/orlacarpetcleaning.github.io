@@ -264,7 +264,7 @@ body, body * {
 
 /* GLOBAL PAGE WIDTH */
 .page-wrapper {
-  max-width: 50rem;
+  width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
 }
