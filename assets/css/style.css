@@ -120,7 +120,7 @@ header.page-header {
 .site-footer {
   padding: 2rem 0 3rem;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #fff; /* footer text white */
 }
 
@@ -132,9 +132,9 @@ header.page-header {
 
 /* Inline footer logo inside the sentence */
 .footer-inline-logo img {
-  height: 1.2rem;
+  height: 3rem;
   width: auto;
   filter: invert(1); /* make logo white */
   vertical-align: middle;
-  margin: 0 0.3rem;
+  margin: 0 0.9rem;
 }
