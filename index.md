@@ -1,34 +1,20 @@
 ---
 layout: home
-title: "ORLA Carpet Cleaning"
-description: "Professional Carpet Cleaning in Cornwall"
+title: ORLA Carpet Cleaning
 ---
 
-<!-- HERO BLOCK -->
-<div class="orla-hero">
-  <h1>Professional Carpet Cleaning in Cornwall</h1>
-  <p class="orla-hero-sub">Deep cleaning. Fresh carpets. A healthier home.</p>
+<div class="home-hero">
+  <h1>This is your hero header</h1>
+  <p>This is where your main message will go once the real copy is ready.</p>
 </div>
 
-## Welcome to ORLA Carpet Cleaning
+## Section Heading
+This is a paragraph of placeholder text showing how normal body text appears on the homepage.  
+You’ll replace this with real content once the structure is final.
 
-We provide reliable, high‑quality carpet cleaning across Cornwall using safe, family‑friendly methods.  
-Whether it’s everyday dirt, stubborn stains, or a full home refresh — we bring your carpets back to life.
+## Another Section
+More placeholder text.  
+This section could become a services preview, a short intro, or anything else you decide later.
 
-## What We Do
-
-- **Deep Carpet Cleaning** — powerful extraction for a true reset  
-- **Stain & Odour Removal** — pets, spills, life’s little accidents  
-- **Upholstery Cleaning** — sofas, chairs, mattresses  
-- **End‑of‑Tenancy Packages** — fast, efficient, landlord‑approved  
-
-## Why Choose Us?
-
-- Fully insured  
-- Professional equipment  
-- Friendly, reliable service  
-- Clear pricing — no surprises  
-
-## Ready to book?
-
-[Contact us](/contact) to get a free quote or ask any questions.
+## Call to Action
+This is where a button or link might go.
