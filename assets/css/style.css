@@ -135,23 +135,18 @@ header.page-header {
 
 /* ⭐ Footer logo (inverted to white) */
 .footer-logo {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: auto;
   background: url('/assets/img/logo_a.png') no-repeat center center;
   background-size: contain;
   filter: invert(1);
 }
 
 /* ⭐ Footer text styling */
-.site-footer {
+.site-footer-credits {
   text-align: center;
   color: #fff;          /* make footer text white */
   font-size: 0.9rem;
   padding: 2rem 0 3rem; /* extra bottom breathing room */
 }
 
-/* ⭐ Footer links also white */
-.site-footer a {
-  color: #fff;
-  text-decoration: underline;
-}
