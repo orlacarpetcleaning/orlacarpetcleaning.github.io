@@ -49,8 +49,8 @@ body::before {
   top: 0;
   left: 0;
 
-  width: 100svw;
-  height: 100svh;
+  width: 100vw;
+  height: 100vh;
 
   background-image: url('/assets/img/bckgr.png');
   background-repeat: no-repeat;
