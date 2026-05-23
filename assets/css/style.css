@@ -237,7 +237,15 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
     height: 2rem;
     top: 0.5rem;
   }
+
+  /* ⭐ FIX FOR THE WRAPPER ON MOBILE ⭐ */
+  .page-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
 }
+
 
 /* -----------------------------------------------------------
    PAGE HERO
