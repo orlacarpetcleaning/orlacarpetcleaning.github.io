@@ -5,6 +5,10 @@
    BASE
 ----------------------------------------------------------- */
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #606c71;
@@ -14,6 +18,9 @@ body {
   /* ORLA background */
   background: url('/assets/img/bckgr.png') no-repeat center center fixed;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column; /* enables sticky footer */
 }
 
 a {
@@ -55,6 +62,7 @@ header.page-header {
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
+  flex: 1; /* pushes footer to bottom */
 }
 
 .main-content h1,
@@ -118,10 +126,10 @@ header.page-header {
 ----------------------------------------------------------- */
 
 .site-footer {
-  padding: 2rem 0 3rem;
+  padding: 2rem 0 2rem;
   text-align: center;
   font-size: 1.5rem;
-  color: #fff; /* footer text white */
+  color: #fff;
 }
 
 /* Footer links */
@@ -130,11 +138,12 @@ header.page-header {
   text-decoration: underline;
 }
 
+/* Inline footer logo */
 .footer-inline-logo {
   text-decoration: none !important;
   display: inline-flex;
   align-items: center;
-  line-height: 1; /* restore normal line height */
+  line-height: 1;
 }
 
 .footer-inline-logo img {
@@ -145,6 +154,5 @@ header.page-header {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  top: 1rem; /* ← THIS lowers the image without moving the text */
+  top: 1rem; /* lowers image without moving text */
 }
-
