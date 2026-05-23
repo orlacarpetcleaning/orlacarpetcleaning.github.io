@@ -211,13 +211,6 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 
 @media (max-width: 768px) {
 
-  /* Android Chrome fix: disable fixed backgrounds */
-  html {
-    background-attachment: scroll !important;
-    background-size: cover !important;
-    background-position: center !important;
-  }
-
   /* FIX: main content width */
   .main-content {
     max-width: 100%;
