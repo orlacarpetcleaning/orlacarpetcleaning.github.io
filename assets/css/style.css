@@ -4,7 +4,10 @@
 /* -----------------------------------------------------------
    BASE
 ----------------------------------------------------------- */
-
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
 html {
   background: url('/assets/img/bckgr.png') no-repeat center center fixed;
   background-size: cover;
