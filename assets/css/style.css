@@ -52,12 +52,15 @@ body::before {
   width: 100vw;
   height: 100vh;
 
-  background: url('/assets/img/bckgr.png') no-repeat center center;
-  background-size: cover;
+  background-image: url('/assets/img/bckgr.png');
+  background-repeat: no-repeat;
+  background-position: center top; /* ⭐ FIX: lock vertical anchor */
+  background-size: 100% auto;      /* ⭐ FIX: no more zooming to fill height */
 
-  z-index: -1; /* sits behind everything */
+  z-index: -1;
   pointer-events: none;
 }
+
 
 /* -----------------------------------------------------------
    CAYMAN DEFAULT HEADER (HIDDEN)
