@@ -4,14 +4,18 @@
 /* -----------------------------------------------------------
    BASE
 ----------------------------------------------------------- */
+
+/* Prevent layout from exceeding viewport width */
 * {
   max-width: 100%;
   box-sizing: border-box;
 }
+
+/* Desktop background (fixed works here) */
 html {
   background: url('/assets/img/bckgr.png') no-repeat center center fixed;
   background-size: cover;
-  background-color: #000; /* fallback */
+  background-color: #000;
 }
 
 html, body {
@@ -190,7 +194,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 
 @media (max-width: 768px) {
 
-  /* FIX: Android Chrome hates fixed backgrounds */
+  /* Android Chrome fix: disable fixed backgrounds */
   html {
     background-attachment: scroll !important;
     background-size: cover !important;
