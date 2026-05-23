@@ -38,9 +38,9 @@ a:hover {
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7;
   font-style: italic;
-  font-size: 1.4rem;
+  font-size: 2rem;
+  margin-top: 5px;
 }
 
 .main-content {
