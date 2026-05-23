@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-# Contact
+## Contact
 This page will contain your contact details and possibly a form.
 
 ## How to Reach Us
