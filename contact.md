@@ -3,14 +3,11 @@ layout: page
 title: Contact
 ---
 
-## Contact
-This page will contain your contact details and possibly a form.
-
 ## How to Reach Us
-Placeholder text for phone, email, or booking links.
+This is a long paragraph describing how customers will eventually contact the business. It wraps across multiple lines so you can observe whether the spacing between the hero, heading, and paragraph remains consistent.
 
 ## Service Area
-Placeholder text describing the areas covered.
+Another long paragraph that continues for several lines. This helps test whether the content width, padding, and alignment behave the same way as on the other pages.
 
 ## Contact Form (Future)
-This is where a form or embedded booking tool might go.
+A final long paragraph that should wrap naturally and expose any subtle inconsistencies in the layout.
