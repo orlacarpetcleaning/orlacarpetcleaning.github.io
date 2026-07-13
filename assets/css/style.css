@@ -215,8 +215,9 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 
   /* FIX: main content width */
   .main-content {
-    max-width: 100%;
-    padding: 1rem;
+     max-width: 100%;
+     padding: 1rem;
+     font-size: 2rem;
   }
 
   /* shrink header padding */
