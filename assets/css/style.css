@@ -312,3 +312,21 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
   font-size: 1.3rem;
   opacity: 0.9;
 }
+
+.hr {
+  border: none;
+  height: 3px;
+  width: 100%;
+  margin: 2rem auto;
+
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0) 0%,          /* fade in */
+    rgba(255,255,255,0.6) 25%,       /* soft white */
+    #ffd84d 50%,                     /* gold shine in the centre */
+    rgba(255,255,255,0.6) 75%,       /* soft white */
+    rgba(255,255,255,0) 100%         /* fade out */
+  );
+
+  border-radius: 2px;
+}
