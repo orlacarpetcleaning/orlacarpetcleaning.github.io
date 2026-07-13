@@ -3,11 +3,11 @@ layout: page
 title: Contact
 ---
 
-## How to Reach Us
-This is a long paragraph describing how customers will eventually contact the business. It wraps across multiple lines so you can observe whether the spacing between the hero, heading, and paragraph remains consistent. 
+# Phone Numbers
+## Mark — Carpet Cleaning & Bookings
+## 07904 900206  
+Your first point of contact for quotes, availability, and on‑site work.
 
-## Service Area
-Another long paragraph that continues for several lines. This helps test whether the content width, padding, and alignment behave the same way as on the other pages.
-
-## Contact Form (Future)
-A final long paragraph that should wrap naturally and expose any subtle inconsistencies in the layout.
+## Anni — Admin & Customer Support
+## 07775 502977  
+For messages, organisation, and anything you need before or after your clean.
