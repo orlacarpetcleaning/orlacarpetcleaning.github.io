@@ -7,7 +7,7 @@ title: Home
 
   <section class="home-hero">
     <h1>Built for our family.</h1>
-    <hr class="orla-hr">
+    <hr>
     <h1><em>Trusted by yours.</em></h1>
   </section>
 
