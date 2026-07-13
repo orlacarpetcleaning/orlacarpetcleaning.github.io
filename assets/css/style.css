@@ -52,6 +52,23 @@ body a {
   color: #fff;
 }
 
+/* ⭐ DESKTOP READABILITY BOOST */
+@media (min-width: 769px) {
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6,
+  body p,
+  body li,
+  body a {
+    text-shadow:
+      0 0 4px rgba(0,0,0,0.6),
+      0 0 12px rgba(0,0,0,0.4);
+  }
+}
+
 /* -----------------------------------------------------------
    HAMBURGER + CHECKBOX FIXES
 ----------------------------------------------------------- */
