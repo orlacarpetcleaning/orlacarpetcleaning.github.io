@@ -52,13 +52,36 @@ body a {
   color: #fff;
 }
 
-/* ⭐ EXCLUDE HAMBURGER ICON FROM READABILITY RULES */
+/* ⭐ FULL HAMBURGER FIX — prevents misrendering */
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
+  background: #fff !important;
+  height: 3px !important;
+  width: 28px !important;
+  display: block !important;
+  border-radius: 3px !important;
+
+  /* remove readability effects */
   text-shadow: none !important;
-  font-weight: normal !important;
-  color: #fff !important;
+  box-shadow: none !important;
+  filter: none !important;
+
+  position: relative;
+}
+
+.nav-toggle-label span::before {
+  content: "" !important;
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+
+.nav-toggle-label span::after {
+  content: "" !important;
+  position: absolute;
+  top: 8px;
+  left: 0;
 }
 
 /* -----------------------------------------------------------
@@ -266,6 +289,8 @@ hr {
 
   .nav-toggle-label {
     display: block;
+    cursor: pointer;
+    padding: 0.5rem;
   }
 
   .orla-nav {
