@@ -5,7 +5,6 @@
    BASE
 ----------------------------------------------------------- */
 
-/* Remove global max-width — breaks layout */
 * {
   box-sizing: border-box;
 }
@@ -25,17 +24,29 @@ body::before {
   position: fixed;
   top: 0;
   left: 0;
-
   width: 100vw;
   height: 100vh;
-
   background-image: url('/assets/img/bckgr.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
   z-index: -1;
   pointer-events: none;
+}
+
+/* GLOBAL READABILITY BOOST */
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body li,
+body a {
+  font-weight: 500; /* readability bump */
+  text-shadow: 0 0 6px rgba(0,0,0,0.45); /* subtle clarity */
+  color: #fff;
 }
 
 /* -----------------------------------------------------------
@@ -135,54 +146,6 @@ header.page-header {
 }
 
 /* -----------------------------------------------------------
-   DEV MODE: ALL TEXT WHITE
------------------------------------------------------------ */
-
-body, h1, h2, h3, h4, h5, h6, p, a, li {
-  color: #fff;
-}
-
-/* -----------------------------------------------------------
-   HAMBURGER MENU (DESKTOP HIDDEN)
------------------------------------------------------------ */
-
-.nav-toggle {
-  display: none;
-}
-
-.nav-toggle-label {
-  display: none;
-  cursor: pointer;
-  padding: 0.5rem;
-}
-
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  display: block;
-  background: #fff;
-  height: 3px;
-  width: 28px;
-  border-radius: 3px;
-  position: relative;
-}
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-}
-
-.nav-toggle-label span::before {
-  top: -8px;
-}
-
-.nav-toggle-label span::after {
-  top: 8px;
-}
-
-/* -----------------------------------------------------------
    PAGE HERO
 ----------------------------------------------------------- */
 
@@ -195,11 +158,12 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 .page-hero h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .page-hero-sub {
   font-size: 1.2rem;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* -----------------------------------------------------------
@@ -221,12 +185,14 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .page-content p {
   margin-bottom: 1rem;
   line-height: 1.6;
-  font-size: 1rem; /* FIXED */
+  font-size: 1rem;
+  font-weight: 450;
 }
 
 /* HOME HERO */
@@ -239,28 +205,29 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 .home-hero h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
+  font-weight: 650;
 }
 
 .home-hero p {
   font-size: 1.3rem;
   opacity: 0.9;
+  font-weight: 450;
 }
 
+/* GOLD HR */
 hr {
   border: none;
   height: 1.5px;
   width: 80%;
   margin: 2rem auto;
-
   background: linear-gradient(
     to right,
-    rgba(255,255,255,0.15) 0%,   /* tiny white fade-in */
-    #ffd84d 20%,                /* gold starts */
-    #ffcc33 50%,                /* rich gold centre */
-    #ffd84d 80%,                /* gold fades */
-    rgba(255,255,255,0.15) 100% /* tiny white fade-out */
+    rgba(255,255,255,0.15) 0%,
+    #ffd84d 20%,
+    #ffcc33 50%,
+    #ffd84d 80%,
+    rgba(255,255,255,0.15) 100%
   );
-
   border-radius: 2px;
 }
 
@@ -273,7 +240,7 @@ hr {
   .main-content {
     max-width: 100%;
     padding: 1rem;
-    font-size: 1rem; /* FIXED */
+    font-size: 1rem;
   }
 
   .orla-header {
@@ -330,22 +297,21 @@ hr {
     padding: 0 1rem;
   }
 
-    h1 {
+  h1 {
     font-size: 1rem;
     margin-bottom: 1rem;
+    font-weight: 600;
   }
-   .home-hero h1 {
-      font-size: 2.2rem;
-      line-height: 1.2;
+
+  .home-hero h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    font-weight: 650;
   }
 }
 
 #home1 {
-   font-size: 1.5rem;
-   text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
 }
-
-h1, h2, h3, p, li {
-  -webkit-text-stroke: 0.4px rgba(0,0,0,0.25);
-}
-
