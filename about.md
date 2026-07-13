@@ -24,6 +24,8 @@ Customers must provide:
  - No hidden fees — ever.
 
  - Eligibility for discounts is discussed during booking.
+   - Blue Light Card holders receive 10% off.
+   - Veterans receive 20% off. 
 
 ## Payments
 
