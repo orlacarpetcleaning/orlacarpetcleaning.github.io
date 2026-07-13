@@ -6,7 +6,7 @@ title: Home
 <div class="page-wrapper">
 
   <section class="home-hero">
-    <h1>Built for our family.<br><em>Trusted by yours.<em></h1>
+    <h1>Built for our family.<br><em>Trusted by yours.</em></h1>
   </section>
 
   <h2>Welcome to ORLA Carpet Cleaning </h2>
