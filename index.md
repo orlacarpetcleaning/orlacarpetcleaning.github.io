@@ -7,7 +7,6 @@ title: Home
 
   <section class="home-hero">
     <h1>Built for our family - trusted by yours.</h1>
-    <h3>Because family deserves a fresh start.</h3>
   </section>
 
   <h2>Welcome to ORLA Carpet Cleaning — the family‑built cleaning service created to give every home a fresh start.</h2>
