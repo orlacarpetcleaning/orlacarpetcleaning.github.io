@@ -6,8 +6,8 @@ title: Home
 <div class="page-wrapper">
 
   <section class="home-hero">
-    <h1>This is your homepage hero</h1>
-    <p>This is placeholder text showing how the homepage hero looks.</p>
+    <h1>Built for our family. Trusted by yours.</h1>
+    <p>Because family deserves a fresh start.</p>
   </section>
 
   <h2>Section Heading</h2>
