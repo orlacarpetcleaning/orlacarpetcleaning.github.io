@@ -315,8 +315,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, li {
 
 hr {
   border: none;
-  height: 3px;
-  width: 100%;
+  height: 1.5px;
+  width: 80%;
   margin: 2rem auto;
 
   background: linear-gradient(
