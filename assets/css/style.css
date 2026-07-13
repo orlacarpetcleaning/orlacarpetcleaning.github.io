@@ -52,7 +52,31 @@ body a {
   color: #fff;
 }
 
-/* ⭐ FULL HAMBURGER FIX — prevents misrendering */
+/* -----------------------------------------------------------
+   HAMBURGER FIXES
+----------------------------------------------------------- */
+
+/* Hide the checkbox completely (bulletproof) */
+.nav-toggle {
+  position: absolute !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+
+  width: 0 !important;
+  height: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+
+  appearance: none !important;
+  -webkit-appearance: none !important;
+
+  clip-path: inset(50%) !important;
+}
+
+/* Hamburger bars — clean, crisp, no blur */
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
