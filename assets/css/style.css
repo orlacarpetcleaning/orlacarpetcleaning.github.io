@@ -321,11 +321,11 @@ hr {
 
   background: linear-gradient(
     to right,
-    rgba(255,255,255,0) 0%,          /* fade in */
-    rgba(255,255,255,0.6) 25%,       /* soft white */
-    #ffd84d 50%,                     /* gold shine in the centre */
-    rgba(255,255,255,0.6) 75%,       /* soft white */
-    rgba(255,255,255,0) 100%         /* fade out */
+    rgba(255,255,255,0.15) 0%,   /* tiny white fade-in */
+    #ffd84d 20%,                /* gold starts */
+    #ffcc33 50%,                /* rich gold centre */
+    #ffd84d 80%,                /* gold fades */
+    rgba(255,255,255,0.15) 100% /* tiny white fade-out */
   );
 
   border-radius: 2px;
